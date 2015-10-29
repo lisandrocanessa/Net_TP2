@@ -1,0 +1,43 @@
+﻿.top
+{
+	height:15%;
+	width:100%;
+	background-color: black; 
+	
+}
+.login-body
+{
+	height:70%;
+	width:100%;
+	background-color: white; 
+	clear:both;
+    }
+.body
+{
+    height:750px;
+}
+.left-space
+{
+    float:left;
+    width:15%;
+}
+.right-space
+{
+    float:right;
+    width:15%;
+}
+.middle-div
+{
+    margin:0 auto; 
+    width:70%;
+}
+.login-box
+{
+    height:300px;
+    width:500px;
+    margin: 100px auto; 
+    padding: 10px; 
+    border: 2px solid; 
+    position:relative; 
+    border-radius: 25px;
+}

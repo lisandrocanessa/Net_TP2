@@ -1,0 +1,40 @@
+C:\Users\Lisandro\Documents\UTN\Electivas\IDE .NET\TP 2\TP2.06\TP2.05\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Users\Lisandro\Documents\UTN\Electivas\IDE .NET\TP 2\TP2.06\TP2.05\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Users\Lisandro\Documents\UTN\Electivas\IDE .NET\TP 2\TP2.06\TP2.05\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Users\Lisandro\Documents\UTN\Electivas\IDE .NET\TP 2\TP2.06\TP2.05\Business.Logic\bin\Debug\Data.Database.dll
+C:\Users\Lisandro\Documents\UTN\Electivas\IDE .NET\TP 2\TP2.06\TP2.05\Business.Logic\bin\Debug\MySql.Data.dll
+C:\Users\Lisandro\Documents\UTN\Electivas\IDE .NET\TP 2\TP2.06\TP2.05\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Users\Lisandro\Documents\UTN\Electivas\IDE .NET\TP 2\TP2.06\TP2.05\Business.Logic\bin\Debug\Data.Database.pdb
+C:\Users\Lisandro\Documents\UTN\Electivas\IDE .NET\TP 2\TP2.06\TP2.05\Business.Logic\obj\Debug\Business.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Lisandro\Documents\UTN\Electivas\IDE .NET\TP 2\TP2.06\TP2.05\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Users\Lisandro\Documents\UTN\Electivas\IDE .NET\TP 2\TP2.06\TP2.05\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\Users\Lisandro\Dropbox\TP 2 .NET\TP2.05\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Users\Lisandro\Dropbox\TP 2 .NET\TP2.05\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Users\Lisandro\Dropbox\TP 2 .NET\TP2.05\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Users\Lisandro\Dropbox\TP 2 .NET\TP2.05\Business.Logic\bin\Debug\Data.Database.dll
+C:\Users\Lisandro\Dropbox\TP 2 .NET\TP2.05\Business.Logic\bin\Debug\MySql.Data.dll
+C:\Users\Lisandro\Dropbox\TP 2 .NET\TP2.05\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Users\Lisandro\Dropbox\TP 2 .NET\TP2.05\Business.Logic\bin\Debug\Data.Database.pdb
+C:\Users\Lisandro\Dropbox\TP 2 .NET\TP2.05\Business.Logic\obj\Debug\Business.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Lisandro\Dropbox\TP 2 .NET\TP2.05\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Users\Lisandro\Dropbox\TP 2 .NET\TP2.05\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\Users\LENOVO\git\TP2.05\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Users\LENOVO\git\TP2.05\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Users\LENOVO\git\TP2.05\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Users\LENOVO\git\TP2.05\Business.Logic\bin\Debug\Data.Database.dll
+C:\Users\LENOVO\git\TP2.05\Business.Logic\bin\Debug\MySql.Data.dll
+C:\Users\LENOVO\git\TP2.05\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Users\LENOVO\git\TP2.05\Business.Logic\bin\Debug\Data.Database.pdb
+C:\Users\LENOVO\git\TP2.05\Business.Logic\obj\Debug\Business.Logic.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\git\TP2.05\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Users\LENOVO\git\TP2.05\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\Users\Lisandro\Documents\GitHub\TP2.05\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Users\Lisandro\Documents\GitHub\TP2.05\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Users\Lisandro\Documents\GitHub\TP2.05\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Users\Lisandro\Documents\GitHub\TP2.05\Business.Logic\bin\Debug\Data.Database.dll
+C:\Users\Lisandro\Documents\GitHub\TP2.05\Business.Logic\bin\Debug\MySql.Data.dll
+C:\Users\Lisandro\Documents\GitHub\TP2.05\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Users\Lisandro\Documents\GitHub\TP2.05\Business.Logic\bin\Debug\Data.Database.pdb
+C:\Users\Lisandro\Documents\GitHub\TP2.05\Business.Logic\obj\Debug\Business.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Lisandro\Documents\GitHub\TP2.05\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Users\Lisandro\Documents\GitHub\TP2.05\Business.Logic\obj\Debug\Business.Logic.pdb

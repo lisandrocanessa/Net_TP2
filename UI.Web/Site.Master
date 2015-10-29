@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UI.Web.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Academia</title>
+
+    <link href="/Bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>      
+    <link href="Bootstrap/Style.css" rel="stylesheet"/> 
+
+</head>
+<body>
+    <div class="body">
+        <div style=" height:5%; background-color:White;"></div>
+        <div class="top">
+            <br />
+            <h2 style="padding-left:10%; color:White;" >Academia:
+                <small style="color:gray">Sistema de Autogestión</small>
+            </h2>
+        </div>
+        <div class="login-body">
+            <div class="left-space"></div>
+            <div class="right-space"></div>
+            <div class="middle-div">
+                <asp:ContentPlaceHolder ID="cplCenter" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/Bootstrap/jQuery/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/Boostrap/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

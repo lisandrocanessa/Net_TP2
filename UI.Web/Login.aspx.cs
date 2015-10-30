@@ -18,7 +18,7 @@ namespace UI.Web
         protected void btnLogin_Click(object sender, EventArgs e)
         {
             UsuarioLogic ul = new UsuarioLogic();
-            if (txtUsu.Text == "" || txtPass.Text == "")
+            if (txtusu.Value == "" || txtPass.Value == "")
             {
                 lblError.Text = "Todos los campos deben ser completados";
             }

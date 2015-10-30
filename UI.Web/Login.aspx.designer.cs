@@ -13,13 +13,13 @@ namespace UI.Web {
     public partial class Login {
         
         /// <summary>
-        /// Control txtUsu.
+        /// Control txtusu.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUsu;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtusu;
         
         /// <summary>
         /// Control txtPass.
@@ -28,7 +28,7 @@ namespace UI.Web {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPass;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword txtPass;
         
         /// <summary>
         /// Control btnLogin.

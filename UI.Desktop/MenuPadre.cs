@@ -100,7 +100,14 @@ namespace UI.Desktop
 
         private void especialidadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Especialidades esp = new Especialidades();
+            esp.Show();
+        }
+
+        private void cursosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CursosComisiones cc = new CursosComisiones();
+            cc.Show();
         }
 
 

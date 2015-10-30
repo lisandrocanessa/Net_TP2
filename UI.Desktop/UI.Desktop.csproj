@@ -61,11 +61,17 @@
     <Compile Include="CambiarContraseña.Designer.cs">
       <DependentUpon>CambiarContraseña.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cursos.cs">
+    <Compile Include="Comisiones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cursos.Designer.cs">
-      <DependentUpon>Cursos.cs</DependentUpon>
+    <Compile Include="Comisiones.Designer.cs">
+      <DependentUpon>Comisiones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CursosComisiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CursosComisiones.Designer.cs">
+      <DependentUpon>CursosComisiones.cs</DependentUpon>
     </Compile>
     <Compile Include="EspecialidadDesktop.cs">
       <SubType>Form</SubType>
@@ -135,8 +141,11 @@
     <EmbeddedResource Include="CambiarContraseña.resx">
       <DependentUpon>CambiarContraseña.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cursos.resx">
-      <DependentUpon>Cursos.cs</DependentUpon>
+    <EmbeddedResource Include="Comisiones.resx">
+      <DependentUpon>Comisiones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CursosComisiones.resx">
+      <DependentUpon>CursosComisiones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EspecialidadDesktop.resx">
       <DependentUpon>EspecialidadDesktop.cs</DependentUpon>

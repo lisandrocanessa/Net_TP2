@@ -18,3 +18,8 @@ C:\Users\LENOVO\Documents\GitHub\Net_TP2\Business.Entities\bin\Debug\Business.En
 C:\Users\LENOVO\Documents\GitHub\Net_TP2\Business.Entities\obj\Debug\Business.Entities.csprojResolveAssemblyReference.cache
 C:\Users\LENOVO\Documents\GitHub\Net_TP2\Business.Entities\obj\Debug\Business.Entities.dll
 C:\Users\LENOVO\Documents\GitHub\Net_TP2\Business.Entities\obj\Debug\Business.Entities.pdb
+C:\Users\Lisandro\Documents\GitHub\Net_TP2\Business.Entities\bin\Debug\Business.Entities.dll
+C:\Users\Lisandro\Documents\GitHub\Net_TP2\Business.Entities\bin\Debug\Business.Entities.pdb
+C:\Users\Lisandro\Documents\GitHub\Net_TP2\Business.Entities\obj\Debug\Business.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Lisandro\Documents\GitHub\Net_TP2\Business.Entities\obj\Debug\Business.Entities.dll
+C:\Users\Lisandro\Documents\GitHub\Net_TP2\Business.Entities\obj\Debug\Business.Entities.pdb

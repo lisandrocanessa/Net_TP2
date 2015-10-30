@@ -10,7 +10,7 @@ namespace Data.Database
     public class Adapter
     {
         //private SqlConnection sqlConnection = new SqlConnection("ConnectionString;");
-        private string conexion = "Server=localhost;Database=academia;Uid=root;Pwd=root;";
+        private string conexion = "Server=localhost;Database=academia;Uid=root;Pwd=;";
 
         private MySqlConnection _sqlConn; 
         public MySqlConnection SqlConn

@@ -26,7 +26,31 @@ namespace Data.Database
             
         public Plan GetOne(int id)
         {
-        	throw new NotImplementedException();
+            Plan p = new Plan();
+            try
+            {
+                this.OpenConnection();
+                MySqlCommand cmd = new MySqlCommand("select * from planes where id_plan = @idplan", SqlConn);
+                cmd.Parameters.Add("@idplan", MySqlDbType.Int32).Value = id;
+                MySqlDataReader dr = cmd.ExecuteReader();
+                if (dr.Read())
+                {
+                    p.Descripcion = (string)dr["desc_plan"];
+                    p.IDEspecialidad = (int)dr["id_especialidad"];
+                    p.ID = (int)dr["id_plan"];
+                }
+                dr.Close();
+            }
+            catch (Exception Ex)
+            {
+                Exception ExcepcionManejada = new Exception("Error al recuperar datos de materia", Ex);
+                throw ExcepcionManejada;
+            }
+            finally
+            {
+                this.CloseConnection();
+            }
+            return p;
         }
 
         public void Add(Plan p)

@@ -99,7 +99,7 @@ namespace UI.Desktop
 
         public override bool Validar()
         {
-            if (false)
+            if (txtDescMateria.Text=="" || txtHsSem.Text=="" || txtHsTot.Text=="")
             {
                 Notificar("Error", "Debe completar todos los campos!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;

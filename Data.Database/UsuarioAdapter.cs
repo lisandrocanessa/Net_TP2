@@ -100,6 +100,7 @@ namespace Data.Database
                 if (drUsuarios.Read())
                 {
                     usr.ID = (int)drUsuarios["id_persona"];
+                    usr.IDPlan = (int)drUsuarios["id_plan"];
                     usr.NombreUsuario = (string)drUsuarios["nombre_usuario"];
                     usr.Clave = (string)drUsuarios["clave"];
                     usr.Apellido = (string)drUsuarios["apellido"];

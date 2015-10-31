@@ -182,6 +182,7 @@
             this.materiaToolStripMenuItem.Name = "materiaToolStripMenuItem";
             this.materiaToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
             this.materiaToolStripMenuItem.Text = "Inscribir a materia";
+            this.materiaToolStripMenuItem.Click += new System.EventHandler(this.materiaToolStripMenuItem_Click);
             // 
             // notasToolStripMenuItem
             // 
@@ -250,7 +251,6 @@
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.mstPadre);
             this.MainMenuStrip = this.mstPadre;
-            this.MaximizeBox = false;
             this.Name = "MenuPadre";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";

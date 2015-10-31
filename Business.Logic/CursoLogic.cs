@@ -20,5 +20,10 @@ namespace Business.Logic
         {
             return CursoData.GetAll(idCom);
         }
+
+        public DataTable DameCursosAInscribir(int idPlan)
+        {
+            return CursoData.GetCursosAInscribir(idPlan);
+        }
     }
 }

@@ -50,7 +50,7 @@ namespace UI.Desktop
             }
         }
 
-        public bool Validar()
+        public override bool Validar()
         {
             if (txtDescripcion.Text == "")
                 return false;

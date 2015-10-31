@@ -110,6 +110,12 @@ namespace UI.Desktop
             cc.Show();
         }
 
+        private void materiaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InscripcionCursado ic = new InscripcionCursado();
+            ic.Show();
+        }
+
 
 
     }

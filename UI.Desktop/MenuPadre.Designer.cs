@@ -44,8 +44,8 @@
             this.mejoresPromediosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiAlumno = new System.Windows.Forms.ToolStripMenuItem();
             this.materiaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.notasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.planDeEstudioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsbEstadoAcademico = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsbPlanEstudio = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiDocente = new System.Windows.Forms.ToolStripMenuItem();
             this.inscribirACursoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -171,8 +171,8 @@
             // 
             this.tsmiAlumno.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.materiaToolStripMenuItem,
-            this.notasToolStripMenuItem,
-            this.planDeEstudioToolStripMenuItem});
+            this.tsbEstadoAcademico,
+            this.tsbPlanEstudio});
             this.tsmiAlumno.Name = "tsmiAlumno";
             this.tsmiAlumno.Size = new System.Drawing.Size(62, 20);
             this.tsmiAlumno.Text = "Alumno";
@@ -184,17 +184,19 @@
             this.materiaToolStripMenuItem.Text = "Inscribir a materia";
             this.materiaToolStripMenuItem.Click += new System.EventHandler(this.materiaToolStripMenuItem_Click);
             // 
-            // notasToolStripMenuItem
+            // tsbEstadoAcademico
             // 
-            this.notasToolStripMenuItem.Name = "notasToolStripMenuItem";
-            this.notasToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.notasToolStripMenuItem.Text = "Estado académico";
+            this.tsbEstadoAcademico.Name = "tsbEstadoAcademico";
+            this.tsbEstadoAcademico.Size = new System.Drawing.Size(170, 22);
+            this.tsbEstadoAcademico.Text = "Estado académico";
+            this.tsbEstadoAcademico.Click += new System.EventHandler(this.tsbEstadoAcademico_Click);
             // 
-            // planDeEstudioToolStripMenuItem
+            // tsbPlanEstudio
             // 
-            this.planDeEstudioToolStripMenuItem.Name = "planDeEstudioToolStripMenuItem";
-            this.planDeEstudioToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.planDeEstudioToolStripMenuItem.Text = "Plan de estudio";
+            this.tsbPlanEstudio.Name = "tsbPlanEstudio";
+            this.tsbPlanEstudio.Size = new System.Drawing.Size(170, 22);
+            this.tsbPlanEstudio.Text = "Plan de estudio";
+            this.tsbPlanEstudio.Click += new System.EventHandler(this.tsbPlanEstudio_Click);
             // 
             // tsmiDocente
             // 
@@ -281,8 +283,8 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiAlumno;
         private System.Windows.Forms.ToolStripMenuItem materiaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cambiarContraseñaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem notasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem planDeEstudioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsbEstadoAcademico;
+        private System.Windows.Forms.ToolStripMenuItem tsbPlanEstudio;
         private System.Windows.Forms.ToolStripMenuItem tsmiDocente;
         private System.Windows.Forms.ToolStripMenuItem inscribirACursoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calificacionesToolStripMenuItem;

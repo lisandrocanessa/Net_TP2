@@ -116,6 +116,18 @@ namespace UI.Desktop
             ic.Show();
         }
 
+        private void tsbEstadoAcademico_Click(object sender, EventArgs e)
+        {
+            EstadoAcademico ea = new EstadoAcademico();
+            ea.Show();
+        }
+
+        private void tsbPlanEstudio_Click(object sender, EventArgs e)
+        {
+            PlanEstudio pe = new PlanEstudio();
+            pe.Show();
+        }
+
 
 
     }

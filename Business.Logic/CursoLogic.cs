@@ -25,5 +25,11 @@ namespace Business.Logic
         {
             return CursoData.GetCursosAInscribir(idPlan);
         }
+
+        public void ActualizarCurso(int idCurso,int cupo)
+        {
+            int cupoActualizado = cupo - 1;
+            CursoData.UpdateCurso(idCurso, cupoActualizado);
+        }
     }
 }

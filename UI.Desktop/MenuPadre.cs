@@ -110,6 +110,24 @@ namespace UI.Desktop
             cc.Show();
         }
 
+        private void materiaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InscripcionCursado ic = new InscripcionCursado();
+            ic.Show();
+        }
+
+        private void tsbEstadoAcademico_Click(object sender, EventArgs e)
+        {
+            EstadoAcademico ea = new EstadoAcademico();
+            ea.Show();
+        }
+
+        private void tsbPlanEstudio_Click(object sender, EventArgs e)
+        {
+            PlanEstudio pe = new PlanEstudio();
+            pe.Show();
+        }
+
 
 
     }

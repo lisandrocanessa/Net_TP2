@@ -15,7 +15,7 @@ namespace Data.Database
         {
             this.OpenConnection();
             DataTable dt = new DataTable();
-            MySqlCommand cmd = new MySqlCommand("select id_materia,desc_materia,hs_semanales,hs_totales from materias where id_plan = @id", SqlConn);
+            MySqlCommand cmd = new MySqlCommand("select * from materias where id_plan = @id", SqlConn);
             cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = idPlan;
             MySqlDataAdapter adap = new MySqlDataAdapter(cmd);
             adap.Fill(dt);

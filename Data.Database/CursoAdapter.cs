@@ -36,5 +36,29 @@ namespace Data.Database
             this.CloseConnection();
             return dt;
         }
+
+        public void UpdateCurso(int idCurso, int cupoActualizado)
+        {
+            try
+            {
+                this.OpenConnection();
+                MySqlCommand cmdSave = new MySqlCommand("UPDATE cursos " +
+                "set cupo =@cupo " +
+                "WHERE id_curso=@id", SqlConn);
+                cmdSave.Parameters.Add("@id", MySqlDbType.Int32).Value = idCurso;
+                cmdSave.Parameters.Add("@cupo", MySqlDbType.Int32).Value = cupoActualizado;
+                cmdSave.ExecuteNonQuery();
+            }
+            catch (Exception Ex)
+            {
+                Exception ExcepcionManejada = new Exception("Error al modificar datos de la materia", Ex);
+                throw ExcepcionManejada;
+
+            }
+            finally
+            {
+                this.CloseConnection();
+            }
+        }
     }
 }

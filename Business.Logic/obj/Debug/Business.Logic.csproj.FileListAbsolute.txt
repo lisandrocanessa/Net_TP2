@@ -58,3 +58,13 @@ C:\Users\Lisandro\Documents\GitHub\Net_TP2\Business.Logic\bin\Debug\Data.Databas
 C:\Users\Lisandro\Documents\GitHub\Net_TP2\Business.Logic\obj\Debug\Business.Logic.csprojResolveAssemblyReference.cache
 C:\Users\Lisandro\Documents\GitHub\Net_TP2\Business.Logic\obj\Debug\Business.Logic.dll
 C:\Users\Lisandro\Documents\GitHub\Net_TP2\Business.Logic\obj\Debug\Business.Logic.pdb
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Business.Logic\bin\Debug\Business.Logic.dll
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Business.Logic\bin\Debug\Business.Logic.pdb
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Business.Logic\bin\Debug\Business.Entities.dll
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Business.Logic\bin\Debug\Data.Database.dll
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Business.Logic\bin\Debug\MySql.Data.dll
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Business.Logic\bin\Debug\Business.Entities.pdb
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Business.Logic\bin\Debug\Data.Database.pdb
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Business.Logic\obj\Debug\Business.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Business.Logic\obj\Debug\Business.Logic.dll
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Business.Logic\obj\Debug\Business.Logic.pdb

@@ -59,3 +59,35 @@ C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.
 C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.InscripcionCursado.resources
 C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.EstadoAcademico.resources
 C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.PlanEstudio.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\bin\Debug\UI.Desktop.exe.config
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.pdb
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\bin\Debug\UI.Desktop.exe
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\bin\Debug\UI.Desktop.pdb
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\bin\Debug\Business.Entities.dll
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\bin\Debug\Business.Logic.dll
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\bin\Debug\Data.Database.dll
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\bin\Debug\MySql.Data.dll
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\bin\Debug\Business.Entities.pdb
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\bin\Debug\Business.Logic.pdb
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\bin\Debug\Data.Database.pdb
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.csprojResolveAssemblyReference.cache
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.ApplicationForm.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.CambiarContraseña.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.Comisiones.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.CursosComisiones.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.EspecialidadDesktop.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.Especialidades.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.EstadoAcademico.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.InscripcionCursado.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.Login.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.MateriaDesktop.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.MenuPadre.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.PlanDesktop.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.Planes.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.PlanEstudio.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.PlanMaterias.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.UsuarioDesktop.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.Usuarios.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.Properties.Resources.resources
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.GenerateResource.Cache

@@ -31,5 +31,10 @@ namespace Business.Logic
             int cupoActualizado = cupo - 1;
             CursoData.UpdateCurso(idCurso, cupoActualizado);
         }
+
+        public DataTable DameCursos()
+        {
+            return CursoData.GetAll();
+        }
     }
 }

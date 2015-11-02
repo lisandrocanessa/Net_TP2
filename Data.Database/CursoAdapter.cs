@@ -62,5 +62,16 @@ namespace Data.Database
                 this.CloseConnection();
             }
         }
+
+        public DataTable GetAll()
+        {
+            this.OpenConnection();
+            DataTable dt = new DataTable();
+            MySqlCommand cmd = new MySqlCommand("select * from cursos", SqlConn);
+            MySqlDataAdapter adap = new MySqlDataAdapter(cmd);
+            adap.Fill(dt);
+            this.CloseConnection();
+            return dt;
+        }
     }
 }

@@ -50,5 +50,32 @@ namespace Data.Database
             this.CloseConnection();
             return dt;
         }
+
+        public void Update(AlumnoInscripcion ai)
+        {
+            try
+            {
+                this.OpenConnection();
+                MySqlCommand cmdSave = new MySqlCommand("UPDATE alumnos_inscripciones " +
+                "set nota =@nota, condicion = @condicion " +
+                "WHERE id_inscripcion=@id", SqlConn);
+
+                cmdSave.Parameters.Add("@id", MySqlDbType.Int32).Value = ai.ID;
+                cmdSave.Parameters.Add("@condicion", MySqlDbType.VarChar, 50).Value = ai.Condicion;
+                cmdSave.Parameters.Add("@nota", MySqlDbType.Int32).Value = ai.Nota;
+                cmdSave.ExecuteNonQuery();
+
+            }
+            catch (Exception Ex)
+            {
+                Exception ExcepcionManejada = new Exception("Error al modificar datos de la materia", Ex);
+                throw ExcepcionManejada;
+
+            }
+            finally
+            {
+                this.CloseConnection();
+            }
+        }
     }
 }

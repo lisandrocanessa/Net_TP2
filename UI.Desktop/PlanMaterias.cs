@@ -31,6 +31,7 @@ namespace UI.Desktop
 
         public void Listar()
         {
+            dgvMaterias.AutoGenerateColumns = false;
             this.dgvMaterias.DataSource = ml.GetAll((int)cmbPlanes.SelectedValue);
         }
 

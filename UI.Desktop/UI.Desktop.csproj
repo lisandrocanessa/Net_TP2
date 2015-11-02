@@ -67,6 +67,12 @@
     <Compile Include="AsignacionDocenteDesktop.Designer.cs">
       <DependentUpon>AsignacionDocenteDesktop.cs</DependentUpon>
     </Compile>
+    <Compile Include="CalificarDesktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalificarDesktop.Designer.cs">
+      <DependentUpon>CalificarDesktop.cs</DependentUpon>
+    </Compile>
     <Compile Include="CambiarContraseña.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -157,6 +163,12 @@
     <Compile Include="PlanMaterias.Designer.cs">
       <DependentUpon>PlanMaterias.cs</DependentUpon>
     </Compile>
+    <Compile Include="RegistroCalificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistroCalificaciones.Designer.cs">
+      <DependentUpon>RegistroCalificaciones.cs</DependentUpon>
+    </Compile>
     <Compile Include="UsuarioDesktop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +191,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AsignacionDocenteDesktop.resx">
       <DependentUpon>AsignacionDocenteDesktop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CalificarDesktop.resx">
+      <DependentUpon>CalificarDesktop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CambiarContraseña.resx">
       <DependentUpon>CambiarContraseña.cs</DependentUpon>
@@ -224,6 +239,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PlanMaterias.resx">
       <DependentUpon>PlanMaterias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistroCalificaciones.resx">
+      <DependentUpon>RegistroCalificaciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UsuarioDesktop.resx">
       <DependentUpon>UsuarioDesktop.cs</DependentUpon>

@@ -62,3 +62,5 @@ C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.PlanEst
 C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.AsignacionDocenteCurso.resources
 C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.CursosDocente.resources
 C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.AsignacionDocenteDesktop.resources
+C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.RegistroCalificaciones.resources
+C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.CalificarDesktop.resources

@@ -36,5 +36,10 @@ namespace Business.Logic
         {
             return CursoData.GetAll();
         }
+
+        public DataTable DameAlumnosDocente(int id_docente)
+        {
+            return CursoData.GetAlumnosDocente(id_docente);
+        }
     }
 }

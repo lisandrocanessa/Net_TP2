@@ -65,7 +65,7 @@
             // 
             // btmSalir
             // 
-            this.btmSalir.Location = new System.Drawing.Point(470, 322);
+            this.btmSalir.Location = new System.Drawing.Point(470, 302);
             this.btmSalir.Name = "btmSalir";
             this.btmSalir.Size = new System.Drawing.Size(131, 23);
             this.btmSalir.TabIndex = 4;
@@ -75,7 +75,7 @@
             // 
             // btmEliminar
             // 
-            this.btmEliminar.Location = new System.Drawing.Point(470, 112);
+            this.btmEliminar.Location = new System.Drawing.Point(470, 110);
             this.btmEliminar.Name = "btmEliminar";
             this.btmEliminar.Size = new System.Drawing.Size(131, 23);
             this.btmEliminar.TabIndex = 3;
@@ -85,7 +85,7 @@
             // 
             // btmModificar
             // 
-            this.btmModificar.Location = new System.Drawing.Point(470, 82);
+            this.btmModificar.Location = new System.Drawing.Point(470, 81);
             this.btmModificar.Name = "btmModificar";
             this.btmModificar.Size = new System.Drawing.Size(131, 23);
             this.btmModificar.TabIndex = 2;
@@ -118,7 +118,7 @@
             this.dgvMaterias.Name = "dgvMaterias";
             this.dgvMaterias.ReadOnly = true;
             this.dgvMaterias.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvMaterias.Size = new System.Drawing.Size(452, 302);
+            this.dgvMaterias.Size = new System.Drawing.Size(444, 302);
             this.dgvMaterias.TabIndex = 0;
             // 
             // id_materia

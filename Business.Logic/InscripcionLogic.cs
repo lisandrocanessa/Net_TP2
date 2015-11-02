@@ -27,5 +27,10 @@ namespace Business.Logic
         {
             return inscripcionData.GetAll(idUsr);
         }
+
+        public void ActualizarInscripcion(AlumnoInscripcion ai)
+        {
+            inscripcionData.Update(ai);
+        }
     }
 }

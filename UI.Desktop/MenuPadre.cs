@@ -134,6 +134,12 @@ namespace UI.Desktop
             adc.Show();
         }
 
+        private void calificacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RegistroCalificaciones rc = new RegistroCalificaciones();
+            rc.Show();
+        }
+
 
 
     }

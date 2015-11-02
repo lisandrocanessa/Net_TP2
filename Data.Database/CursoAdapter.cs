@@ -73,5 +73,19 @@ namespace Data.Database
             this.CloseConnection();
             return dt;
         }
+
+        public DataTable GetAlumnosDocente(int id_docente)
+        {
+            this.OpenConnection();
+            DataTable dt = new DataTable();
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM docentes_cursos inner join alumnos_inscripciones inner join personas " +
+                "on docentes_cursos.id_curso=alumnos_inscripciones.id_curso and alumnos_inscripciones.id_alumno=personas.id_persona " +
+                "where id_docente=@id" , SqlConn);
+            cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = id_docente;
+            MySqlDataAdapter adap = new MySqlDataAdapter(cmd);
+            adap.Fill(dt);
+            this.CloseConnection();
+            return dt;
+        }
     }
 }

@@ -46,11 +46,3 @@ C:\Users\Lisandro\Documents\GitHub\Net_TP2\Data.Database\bin\Debug\Business.Enti
 C:\Users\Lisandro\Documents\GitHub\Net_TP2\Data.Database\obj\Debug\Data.Database.csprojResolveAssemblyReference.cache
 C:\Users\Lisandro\Documents\GitHub\Net_TP2\Data.Database\obj\Debug\Data.Database.dll
 C:\Users\Lisandro\Documents\GitHub\Net_TP2\Data.Database\obj\Debug\Data.Database.pdb
-C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Data.Database\bin\Debug\Data.Database.dll
-C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Data.Database\bin\Debug\Data.Database.pdb
-C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Data.Database\bin\Debug\Business.Entities.dll
-C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Data.Database\bin\Debug\MySql.Data.dll
-C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Data.Database\bin\Debug\Business.Entities.pdb
-C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Data.Database\obj\Debug\Data.Database.csprojResolveAssemblyReference.cache
-C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Data.Database\obj\Debug\Data.Database.dll
-C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\Data.Database\obj\Debug\Data.Database.pdb

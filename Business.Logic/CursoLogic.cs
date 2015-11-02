@@ -21,15 +21,20 @@ namespace Business.Logic
             return CursoData.GetAll(idCom);
         }
 
-        public DataTable DameCursosAInscribir(int idPlan)
+        public DataTable DameCursosAInscribir(int idPlan, int usrID)
         {
-            return CursoData.GetCursosAInscribir(idPlan);
+            return CursoData.GetCursosAInscribir(idPlan, usrID);
         }
 
         public void ActualizarCurso(int idCurso,int cupo)
         {
             int cupoActualizado = cupo - 1;
             CursoData.UpdateCurso(idCurso, cupoActualizado);
+        }
+
+        public DataTable DameCursos()
+        {
+            return CursoData.GetAll();
         }
     }
 }

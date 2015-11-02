@@ -47,7 +47,7 @@
             this.tsbEstadoAcademico = new System.Windows.Forms.ToolStripMenuItem();
             this.tsbPlanEstudio = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiDocente = new System.Windows.Forms.ToolStripMenuItem();
-            this.inscribirACursoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsbInscribirACurso = new System.Windows.Forms.ToolStripMenuItem();
             this.calificacionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblApellido = new System.Windows.Forms.Label();
@@ -201,22 +201,23 @@
             // tsmiDocente
             // 
             this.tsmiDocente.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.inscribirACursoToolStripMenuItem,
+            this.tsbInscribirACurso,
             this.calificacionesToolStripMenuItem});
             this.tsmiDocente.Name = "tsmiDocente";
             this.tsmiDocente.Size = new System.Drawing.Size(63, 20);
             this.tsmiDocente.Text = "Docente";
             // 
-            // inscribirACursoToolStripMenuItem
+            // tsbInscribirACurso
             // 
-            this.inscribirACursoToolStripMenuItem.Name = "inscribirACursoToolStripMenuItem";
-            this.inscribirACursoToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.inscribirACursoToolStripMenuItem.Text = "Cursos";
+            this.tsbInscribirACurso.Name = "tsbInscribirACurso";
+            this.tsbInscribirACurso.Size = new System.Drawing.Size(152, 22);
+            this.tsbInscribirACurso.Text = "Cursos";
+            this.tsbInscribirACurso.Click += new System.EventHandler(this.tsbInscribirACurso_Click);
             // 
             // calificacionesToolStripMenuItem
             // 
             this.calificacionesToolStripMenuItem.Name = "calificacionesToolStripMenuItem";
-            this.calificacionesToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.calificacionesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.calificacionesToolStripMenuItem.Text = "Calificaciones";
             // 
             // lblNombre
@@ -286,7 +287,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsbEstadoAcademico;
         private System.Windows.Forms.ToolStripMenuItem tsbPlanEstudio;
         private System.Windows.Forms.ToolStripMenuItem tsmiDocente;
-        private System.Windows.Forms.ToolStripMenuItem inscribirACursoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsbInscribirACurso;
         private System.Windows.Forms.ToolStripMenuItem calificacionesToolStripMenuItem;
         public System.Windows.Forms.Label lblNombre;
         public System.Windows.Forms.Label lblApellido;

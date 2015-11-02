@@ -58,6 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Alumnos.aspx" />
+    <Content Include="Alumno\EstadoAcademico.aspx" />
+    <Content Include="Alumno\InscribirMateria.aspx" />
+    <Content Include="Alumno\PlanEstudio.aspx" />
     <Content Include="Bootstrap\Style.css" />
     <Content Include="Login.aspx" />
     <Content Include="Site.Master" />
@@ -80,6 +83,27 @@
     </Compile>
     <Compile Include="Alumnos.aspx.designer.cs">
       <DependentUpon>Alumnos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumno\EstadoAcademico.aspx.cs">
+      <DependentUpon>EstadoAcademico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alumno\EstadoAcademico.aspx.designer.cs">
+      <DependentUpon>EstadoAcademico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumno\InscribirMateria.aspx.cs">
+      <DependentUpon>InscribirMateria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alumno\InscribirMateria.aspx.designer.cs">
+      <DependentUpon>InscribirMateria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alumno\PlanEstudio.aspx.cs">
+      <DependentUpon>PlanEstudio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alumno\PlanEstudio.aspx.designer.cs">
+      <DependentUpon>PlanEstudio.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

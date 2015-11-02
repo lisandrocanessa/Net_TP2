@@ -42,17 +42,25 @@ namespace UI.Desktop
 
         private void btnInscribir_Click(object sender, EventArgs e)
         {
-            AlumnoInscripcion ai = new AlumnoInscripcion();
-            ai.IDCurso = (int)dgvCurComMa.CurrentRow.Cells[1].Value;
-            ai.IDAlumno = UsuarioSesion.Sesion.ID;
-            ai.Condicion = "Cursando";
-            InscripcionLogic il = new InscripcionLogic();
-            il.GenerarInscripcion(ai);
-            CursoLogic cl = new CursoLogic();
-            int cupo=(int)dgvCurComMa.CurrentRow.Cells[5].Value;
-            cl.ActualizarCurso(ai.IDCurso,cupo);
-            Notificar("Inscripcion generada correctamente", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            this.Listar();
+            try
+            {
+                AlumnoInscripcion ai = new AlumnoInscripcion();
+                ai.IDCurso = (int)dgvCurComMa.CurrentRow.Cells[1].Value;
+                ai.IDAlumno = UsuarioSesion.Sesion.ID;
+                ai.Condicion = "Cursando";
+                InscripcionLogic il = new InscripcionLogic();
+                il.GenerarInscripcion(ai);
+                CursoLogic cl = new CursoLogic();
+                int cupo = (int)dgvCurComMa.CurrentRow.Cells[5].Value;
+                cl.ActualizarCurso(ai.IDCurso, cupo);
+                Notificar("Inscripcion generada correctamente", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Listar();
+            }
+            catch (Exception ex) 
+            {
+                Notificar("Error de selección", "Seleccione un alumno a inscribir", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
     }
 }

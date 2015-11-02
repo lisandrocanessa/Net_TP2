@@ -47,12 +47,14 @@ namespace UI.Desktop
                         this.tsmiAdministrador.Visible= false;
                         this.tsmiReportes.Visible = false;
                         this.tsmiDocente.Visible = false;
+                        this.tsmiAlumno.Visible = true;
                     }
                     else if (UsuarioSesion.Sesion.TipoPersona.ToString() == "Docente")
                     {
                         this.tsmiAdministrador.Visible = false;
                         this.tsmiReportes.Visible = false;
                         this.tsmiAlumno.Visible = false;
+                        this.tsmiDocente.Visible = true;
                     }
                     else                    
                     {

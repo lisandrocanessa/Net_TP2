@@ -59,3 +59,6 @@ C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.
 C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.InscripcionCursado.resources
 C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.EstadoAcademico.resources
 C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.PlanEstudio.resources
+C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.AsignacionDocenteCurso.resources
+C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.CursosDocente.resources
+C:\Users\LENOVO\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.AsignacionDocenteDesktop.resources

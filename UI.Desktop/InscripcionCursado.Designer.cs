@@ -34,11 +34,11 @@
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.btnInscribir = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.AñoEspecialidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IDCurso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Curso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Comision = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Materia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AñoEspecialidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cupo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCurComMa)).BeginInit();
@@ -79,11 +79,11 @@
             this.dgvCurComMa.AllowUserToDeleteRows = false;
             this.dgvCurComMa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCurComMa.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.AñoEspecialidad,
             this.IDCurso,
             this.Curso,
             this.Comision,
             this.Materia,
-            this.AñoEspecialidad,
             this.Cupo});
             this.dgvCurComMa.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvCurComMa.Location = new System.Drawing.Point(3, 30);
@@ -130,6 +130,13 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // AñoEspecialidad
+            // 
+            this.AñoEspecialidad.DataPropertyName = "anio_especialidad";
+            this.AñoEspecialidad.HeaderText = "Año Especialidad";
+            this.AñoEspecialidad.Name = "AñoEspecialidad";
+            this.AñoEspecialidad.ReadOnly = true;
+            // 
             // IDCurso
             // 
             this.IDCurso.DataPropertyName = "id_curso";
@@ -157,13 +164,6 @@
             this.Materia.HeaderText = "Materia";
             this.Materia.Name = "Materia";
             this.Materia.ReadOnly = true;
-            // 
-            // AñoEspecialidad
-            // 
-            this.AñoEspecialidad.DataPropertyName = "anio_calendario";
-            this.AñoEspecialidad.HeaderText = "Año Especialidad";
-            this.AñoEspecialidad.Name = "AñoEspecialidad";
-            this.AñoEspecialidad.ReadOnly = true;
             // 
             // Cupo
             // 
@@ -199,11 +199,11 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Button btnInscribir;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.DataGridViewTextBoxColumn AñoEspecialidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDCurso;
         private System.Windows.Forms.DataGridViewTextBoxColumn Curso;
         private System.Windows.Forms.DataGridViewTextBoxColumn Comision;
         private System.Windows.Forms.DataGridViewTextBoxColumn Materia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn AñoEspecialidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cupo;
     }
 }

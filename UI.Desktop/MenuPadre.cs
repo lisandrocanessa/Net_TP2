@@ -128,6 +128,12 @@ namespace UI.Desktop
             pe.Show();
         }
 
+        private void tsbInscribirACurso_Click(object sender, EventArgs e)
+        {
+            AsignacionDocenteCurso adc = new AsignacionDocenteCurso();
+            adc.Show();
+        }
+
 
 
     }

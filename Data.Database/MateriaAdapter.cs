@@ -153,5 +153,18 @@ namespace Data.Database
             }
             return mt;
         }
+
+        public DataTable GetAll(int plan, int comision)
+        {
+            this.OpenConnection();
+            DataTable dt = new DataTable();
+            MySqlCommand cmd = new MySqlCommand("select * from materias m inner join cursos c on m.id_materia=c.id_materia where c.id_plan = @id and c.id_comision <> @com", SqlConn);
+            cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = plan;
+            cmd.Parameters.Add("@com", MySqlDbType.Int32).Value = comision;
+            MySqlDataAdapter adap = new MySqlDataAdapter(cmd);
+            adap.Fill(dt);
+            this.CloseConnection();
+            return dt;
+        }
     }
 }

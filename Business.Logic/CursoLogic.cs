@@ -41,5 +41,10 @@ namespace Business.Logic
         {
             return CursoData.GetAlumnosDocente(id_docente);
         }
+
+        public void AddCurso(Entities.Curso c)
+        {
+            CursoData.AddCurso(c);
+        }
     }
 }

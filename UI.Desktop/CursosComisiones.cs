@@ -59,5 +59,11 @@ namespace UI.Desktop
             Comisiones c = new Comisiones((int)cmbPlanes.SelectedValue);
             c.Show();
         }
+
+        private void btnAddCurso_Click(object sender, EventArgs e)
+        {
+            CursoAdd ca = new CursoAdd((int)cmbPlanes.SelectedValue, (int)cmbComision.SelectedValue);
+            ca.ShowDialog();
+        }
     }
 }

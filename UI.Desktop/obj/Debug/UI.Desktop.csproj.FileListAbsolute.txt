@@ -104,3 +104,5 @@ C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Deskt
 F:\Net_TP2\UI.Desktop\bin\Debug\UI.Desktop.exe.config
 F:\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
 F:\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.pdb
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\bin\Debug\itextsharp.dll
+C:\Users\Lisandro Canessa\Documents\GitHub\Net_TP2\UI.Desktop\obj\Debug\UI.Desktop.CursoAdd.resources

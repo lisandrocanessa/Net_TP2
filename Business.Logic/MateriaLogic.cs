@@ -37,5 +37,11 @@ namespace Business.Logic
         {
             MateriaData.Save(MateriaActual);
         }
+
+        // devuelve las materias que no tienen curso en una comision
+        public DataTable GetAll(int plan, int comision)
+        {
+            return MateriaData.GetAll(plan, comision);
+        }
     }
 }

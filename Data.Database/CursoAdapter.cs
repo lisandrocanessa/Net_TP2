@@ -87,5 +87,20 @@ namespace Data.Database
             this.CloseConnection();
             return dt;
         }
+
+        public void AddCurso(Business.Entities.Curso c)
+        {
+            this.OpenConnection();
+            MySqlCommand cmd = new MySqlCommand("insert into cursos(anio_calendario,cupo,descripcion,id_comision,id_materia) values (@anio,@cupo,@desc,@com,@mat)", SqlConn);
+            cmd.Parameters.Add("@anio", MySqlDbType.Int32).Value = c.AnioCalendario;
+            cmd.Parameters.Add("@cupo", MySqlDbType.Int32).Value = c.Cupo;
+            cmd.Parameters.Add("@desc", MySqlDbType.VarChar, 50).Value = c.Descripcion;
+            cmd.Parameters.Add("@com", MySqlDbType.Int32).Value = c.IDComision;
+            cmd.Parameters.Add("@mat", MySqlDbType.Int32).Value = c.IDMateria;
+
+            cmd.ExecuteNonQuery();
+
+            this.CloseConnection();
+        }
     }
 }

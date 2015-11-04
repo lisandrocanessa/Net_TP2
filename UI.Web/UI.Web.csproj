@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin.aspx" />
     <Content Include="Alumnos.aspx" />
     <Content Include="Alumno\EstadoAcademico.aspx" />
     <Content Include="Alumno\InscribirMateria.aspx" />
@@ -77,6 +78,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Alumnos.aspx.cs">
       <DependentUpon>Alumnos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -125,6 +133,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>

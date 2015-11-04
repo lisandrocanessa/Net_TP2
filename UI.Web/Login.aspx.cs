@@ -40,7 +40,7 @@ namespace UI.Web
                 }
                 else 
                 {
-                    Response.Redirect("Administrador.aspx");
+                    Response.Redirect("Admin.aspx");
                 }
             }
         }
